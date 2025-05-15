@@ -1,0 +1,4 @@
+@import "tailwindcss";
+@import url('bulma/css/bulma.css');
+@import url('material-design-icons/iconfont/material-icons.css');
+@import 'react-toastify/dist/ReactToastify.css';
