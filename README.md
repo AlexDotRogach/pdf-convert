@@ -5,7 +5,7 @@
 Install the dependencies:
 
 ```bash
-pnpm install
+npm install
 ```
 
 ## Get started
@@ -13,18 +13,19 @@ pnpm install
 Start the dev server:
 
 ```bash
-pnpm dev
+npm dev
 ```
 
 Build the app for production:
 
 ```bash
-pnpm build
+npm build
 ```
 
-Preview the production build locally:
+fix your project locally:
 
 ```bash
-pnpm preview
+npm biome
 ```
 # pdf-convert
+

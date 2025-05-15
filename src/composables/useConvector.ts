@@ -1,5 +1,9 @@
 import { convertPdf } from "@/api/convertPdf";
-import {errorConvertPdf, successConvertPdf, warningConvertPdf} from "@/const/messages";
+import {
+	errorConvertPdf,
+	successConvertPdf,
+	warningConvertPdf,
+} from "@/const/messages";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { toast } from "react-toastify";
 
@@ -15,7 +19,7 @@ export const useConvector = () => {
 
 	const handleInitConvectorPdf = useCallback(() => {
 		if (!textRef.current) {
-			toast.warning(warningConvertPdf)
+			toast.warning(warningConvertPdf);
 			return;
 		}
 

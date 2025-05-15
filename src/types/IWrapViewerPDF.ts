@@ -1,3 +1,3 @@
 export interface IWrapViewerPDFProps {
-	pdf: string
+	pdf: string;
 }
