@@ -11,9 +11,10 @@ const TextArrayInput: FC<ITextArrayInputProps> = ({ text, setText }) => {
 	};
 
 	return (
-		<div className="w-full flex justify-center items-center p-4">
+		<div className="w-full flex justify-center items-center pt-6">
 			<div className="bg-white p-6 rounded-xl shadow-lg max-w-xl w-full space-y-4">
 				<textarea
+					id="text-array-input"
 					value={text}
 					onChange={handleChangeText}
 					placeholder="Текст"

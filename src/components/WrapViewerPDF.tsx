@@ -6,7 +6,7 @@ const WrapViewerPDF = React.memo((props: IWrapViewerPDFProps) => {
 	if (!props.pdf) return null;
 
 	return (
-		<div className="p-6">
+		<div id="wrap-viewer-pdf" className="p-6">
 			<PDFViewer
 				key={props.pdf}
 				document={{
